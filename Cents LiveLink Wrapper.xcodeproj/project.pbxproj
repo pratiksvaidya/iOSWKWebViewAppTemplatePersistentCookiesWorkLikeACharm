@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		A28AD82E26CCA34E00BE1813 /* iOSWKWebViewAppTemplateCookiesWorkLikeACharm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSWKWebViewAppTemplateCookiesWorkLikeACharm.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A28AD82E26CCA34E00BE1813 /* Cents LiveLink Wrapper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cents LiveLink Wrapper.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A28AD83126CCA34E00BE1813 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A28AD83326CCA34E00BE1813 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		A28AD83526CCA34E00BE1813 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -48,7 +48,7 @@
 		A28AD82F26CCA34E00BE1813 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A28AD82E26CCA34E00BE1813 /* iOSWKWebViewAppTemplateCookiesWorkLikeACharm.app */,
+				A28AD82E26CCA34E00BE1813 /* Cents LiveLink Wrapper.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -70,9 +70,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A28AD82D26CCA34E00BE1813 /* iOSWKWebViewAppTemplateCookiesWorkLikeACharm */ = {
+		A28AD82D26CCA34E00BE1813 /* Cents LiveLink Wrapper */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A28AD84226CCA35000BE1813 /* Build configuration list for PBXNativeTarget "iOSWKWebViewAppTemplateCookiesWorkLikeACharm" */;
+			buildConfigurationList = A28AD84226CCA35000BE1813 /* Build configuration list for PBXNativeTarget "Cents LiveLink Wrapper" */;
 			buildPhases = (
 				A28AD82A26CCA34E00BE1813 /* Sources */,
 				A28AD82B26CCA34E00BE1813 /* Frameworks */,
@@ -82,9 +82,9 @@
 			);
 			dependencies = (
 			);
-			name = iOSWKWebViewAppTemplateCookiesWorkLikeACharm;
+			name = "Cents LiveLink Wrapper";
 			productName = iOSWKWebViewAppTemplateCookiesWorkLikeACharm;
-			productReference = A28AD82E26CCA34E00BE1813 /* iOSWKWebViewAppTemplateCookiesWorkLikeACharm.app */;
+			productReference = A28AD82E26CCA34E00BE1813 /* Cents LiveLink Wrapper.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -101,7 +101,7 @@
 					};
 				};
 			};
-			buildConfigurationList = A28AD82926CCA34E00BE1813 /* Build configuration list for PBXProject "iOSWKWebViewAppTemplateCookiesWorkLikeACharm" */;
+			buildConfigurationList = A28AD82926CCA34E00BE1813 /* Build configuration list for PBXProject "Cents LiveLink Wrapper" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -114,7 +114,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A28AD82D26CCA34E00BE1813 /* iOSWKWebViewAppTemplateCookiesWorkLikeACharm */,
+				A28AD82D26CCA34E00BE1813 /* Cents LiveLink Wrapper */,
 			);
 		};
 /* End PBXProject section */
@@ -293,10 +293,12 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompanyname.iOSWKWebViewAppTemplateCookiesWorkLikeACharm;
+				PRODUCT_BUNDLE_IDENTIFIER = com.trycents.livelinkwrapper;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -312,17 +314,19 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompanyname.iOSWKWebViewAppTemplateCookiesWorkLikeACharm;
+				PRODUCT_BUNDLE_IDENTIFIER = com.trycents.livelinkwrapper;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A28AD82926CCA34E00BE1813 /* Build configuration list for PBXProject "iOSWKWebViewAppTemplateCookiesWorkLikeACharm" */ = {
+		A28AD82926CCA34E00BE1813 /* Build configuration list for PBXProject "Cents LiveLink Wrapper" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A28AD84026CCA35000BE1813 /* Debug */,
@@ -331,7 +335,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A28AD84226CCA35000BE1813 /* Build configuration list for PBXNativeTarget "iOSWKWebViewAppTemplateCookiesWorkLikeACharm" */ = {
+		A28AD84226CCA35000BE1813 /* Build configuration list for PBXNativeTarget "Cents LiveLink Wrapper" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A28AD84326CCA35000BE1813 /* Debug */,
