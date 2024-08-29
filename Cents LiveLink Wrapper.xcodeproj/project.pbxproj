@@ -40,7 +40,7 @@
 		A28AD82526CCA34E00BE1813 = {
 			isa = PBXGroup;
 			children = (
-				A28AD83026CCA34E00BE1813 /* iOSWKWebViewAppTemplateCookiesWorkLikeACharm */,
+				A28AD83026CCA34E00BE1813 /* Cents LiveLink Wrapper */,
 				A28AD82F26CCA34E00BE1813 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -53,7 +53,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A28AD83026CCA34E00BE1813 /* iOSWKWebViewAppTemplateCookiesWorkLikeACharm */ = {
+		A28AD83026CCA34E00BE1813 /* Cents LiveLink Wrapper */ = {
 			isa = PBXGroup;
 			children = (
 				A28AD83126CCA34E00BE1813 /* AppDelegate.swift */,
@@ -64,7 +64,7 @@
 				A28AD83C26CCA35000BE1813 /* LaunchScreen.storyboard */,
 				A28AD83F26CCA35000BE1813 /* Info.plist */,
 			);
-			path = iOSWKWebViewAppTemplateCookiesWorkLikeACharm;
+			path = "Cents LiveLink Wrapper";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -287,7 +287,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = iOSWKWebViewAppTemplateCookiesWorkLikeACharm/Info.plist;
+				INFOPLIST_FILE = "Cents LiveLink Wrapper/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -308,7 +308,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = iOSWKWebViewAppTemplateCookiesWorkLikeACharm/Info.plist;
+				INFOPLIST_FILE = "Cents LiveLink Wrapper/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
